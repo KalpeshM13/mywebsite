@@ -1,0 +1,187 @@
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #E4F9F5;
+}
+.heard{
+    text-align: center;
+    height: 35px;
+    padding-top: 10px;
+    background-color: #2874f0;
+}
+.copyright{
+    background-color: #08395f;
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+    font-family: system-ui;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.header{
+    margin: 205px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+.header:hover{
+    color: #27eeee;
+    text-decoration: underline;
+}
+.header1{
+    margin: 205px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+.welcome{
+    padding-top: 51px;
+    font-size: 120px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hello{
+    background-color: #9dfdff;
+    height: 200px;
+    padding-bottom: 50px;
+    margin-top: -80px;
+}
+.newarrival{
+    margin-top: -3px;
+    background: aquamarine;
+    height: 120px;
+    padding-top: 30px;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+hr{
+    border: dotted #bef3f3 6px;
+    border-bottom: none;
+    width: 40%;
+    margin-bottom: 90px;
+}
+.statement{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.store-link{
+    background-color: #2874f0;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+}
+.store-link:hover{
+    background-color: #001d33;
+    color: #27eeee;
+}
+.statement-line{
+    font-size: 24px;
+}
+.social{
+    font-family: monospace;
+    width: 400px;
+    font-size: 28px;
+    padding: 10px;
+    margin-left: 760px;
+}
+.aboutpara{
+    color: gray;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 15px;
+    padding: 5px;
+}
+.mainfooter{
+    color: white;
+    background-color: #001d33;
+    margin-top: -60px;
+    padding: 10px;
+}
+.contact{
+    font-family: monospace;
+    width: 400px;
+    font-size: 28px;
+    margin-left: 206px;
+    padding: 10px;
+}
+.touch{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+.footertouch{
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    margin-left: 670px;
+}
+.email{
+    margin-left: 220px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.touchnav{
+    padding: 24px;
+}
+.email1{
+    color: white;
+    text-decoration: none;
+}
+.email1:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.touch:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.about{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.slider-frame{
+    overflow: hidden;
+    width: 1200px;
+    height: 680px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+@keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left: 0px;}
+    20%{left: 1200px;}
+    30%{left: 1200px;}
+    40%{left: 2400px;}
+    50%{left: 2400px;}
+    60%{left: 1200px;}
+    70%{left: 1200px;}
+    80%{left: 0px;}
+    90%{left: 0px;}
+    100%{left: 0px;}
+}
+.slide-images{
+    background-color: white;
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2170px;
+    position: relative;
+    animation-name: slide_animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}

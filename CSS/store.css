@@ -1,0 +1,172 @@
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #E4F9F5;
+}
+.heard{
+    text-align: center;
+    height: 35px;
+    padding-top: 10px;
+    background-color: #2874f0;
+}
+.header{
+    margin: 205px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+.header:hover{
+    color: #27eeee;
+    text-decoration: underline;
+}
+.header1{
+    margin: 205px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+.welcome{
+    padding-top: 51px;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hello{
+    background-color: #9dfdff;
+    height: 180px;
+    padding-bottom: 50px;
+    margin-top: -65px;
+}
+.mainfooter{
+    color: white;
+    background-color: #001d33;
+    padding: 10px;
+}
+.contact{
+    font-family: monospace;
+    width: 400px;
+    font-size: 28px;
+    margin-left: 206px;
+    padding: 10px;
+}
+.touch{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+.footertouch{
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    margin-left: 670px;
+}
+.email{
+    margin-left: 220px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.touchnav{
+    padding: 24px;
+}
+.email1{
+    color: white;
+    text-decoration: none;
+}
+.email:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.email1:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.touch:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.about{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.copyright{
+    background-color: #08395f;
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+    font-family: system-ui;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.aboutpara{
+    color: gray;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 15px;
+    padding: 5px;
+}
+.social{
+    font-family: monospace;
+    width: 400px;
+    font-size: 28px;
+    padding: 10px;
+    margin-left: 760px;
+}
+.item1{
+    width: 300px;
+    margin: 5px;
+    display: inline-block;
+    border: 3px solid gray;
+}
+.item1-img{
+    height: 300px;
+}
+.item1-name{
+    width: 297px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    background: aqua;
+    height: 60px;
+    padding-left: 3px;
+    margin-top: -5px;
+    padding-top: 18px;
+}
+.item1-link{
+    text-decoration: none;
+    color: black;
+}
+.item1-link:hover{
+    color: rgb(194, 139, 72);
+}
+.item2-img{
+    height: 297px;
+}
+.item-container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 110px;
+}
+.item3-img{
+    height: 333px;
+    width: 353px;
+}
+.item2{
+    height: 370px;
+    display: inline-block;
+    border: 3px solid gray;
+    width: 353px;
+    margin: 5px;
+}
+.item2-name{
+    width: 348px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    background: aqua;
+    height: 19px;
+    text-align: center;
+    padding-left: 5px;
+    margin-top: -4px;
+    padding-top: 20px;
+}
