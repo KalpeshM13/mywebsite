@@ -134,6 +134,7 @@ body{
     padding-top: 18px;
 }
 .item1-link{
+    font-family: 'Merriweather', serif;
     text-decoration: none;
     color: black;
 }
@@ -153,20 +154,16 @@ body{
     width: 353px;
 }
 .item2{
-    height: 370px;
+    height: 374px;
     display: inline-block;
     border: 3px solid gray;
-    width: 353px;
+    width: 330px;
     margin: 5px;
 }
 .item2-name{
-    width: 348px;
-    font-size: 15px;
-    margin-bottom: 0px;
     background: aqua;
-    height: 19px;
     text-align: center;
-    padding-left: 5px;
-    margin-top: -4px;
-    padding-top: 20px;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 30px;
 }
