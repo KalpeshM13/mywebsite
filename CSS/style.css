@@ -139,8 +139,7 @@ hr{
     text-decoration: underline;
 }
 .touch:hover{
-    color: gray;
-    text-decoration: underline;
+    color: white;
 }
 .about{
     text-align: center;
