@@ -1,27 +1,43 @@
+html{
+    font-size: 62.5%;
+}
+
+@media(max-width:1080px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+
 body{
     font-family: 'Merriweather', serif;
     background-color: #E4F9F5;
 }
 .heard{
     text-align: center;
-    height: 35px;
-    padding-top: 10px;
+    height: 3.5rem;
+    padding-top: 1rem;
     background-color: #2874f0;
 }
 .copyright{
     background-color: #08395f;
-    padding-top: 7px;
+    padding-top: 0.7rem;
     color: white;
     text-align: center;
-    height: 35px;
-    font-size: 20px;
+    height: 3.5rem;
+    font-size: 2rem;
     font-family: system-ui;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-left: -0.8rem;
+    margin-right: -0.8rem;
 }
 .header{
-    margin: 190px;
-    font-size: 18px;
+    margin: 20.5rem;
+    font-size: 1.8rem;
     text-decoration: none;
     color: white;
     font-family: monospace;
@@ -31,49 +47,49 @@ body{
     text-decoration: underline;
 }
 .header1{
-    margin: 205px;
-    font-size: 20px;
+    margin: 20.5rem;
+    font-size: 2rem;
     text-decoration: none;
     color: white;
     font-family: monospace;
 }
 .welcome{
-    padding-top: 51px;
-    font-size: 120px;
+    padding-top: 5.1rem;
+    font-size: 12rem;
     font-family: 'Courier New', Courier, monospace;
 }
 .hello{
     background-color: #9dfdff;
-    height: 200px;
-    padding-bottom: 50px;
-    margin-top: -80px;
+    height: 20rem;
+    padding-bottom: 5rem;
+    margin-top: -8rem;
 }
 .newarrival{
-    margin-top: -3px;
+    margin-top: -0.3rem;
     background: aquamarine;
-    height: 120px;
-    padding-top: 30px;
-    font-size: 80px;
+    height: 12rem;
+    padding-top: 3rem;
+    font-size: 8rem;
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
 }
 hr{
-    border: dotted #bef3f3 6px;
+    border: dotted #bef3f3 0.6rem;
     border-bottom: none;
     width: 40%;
-    margin-bottom: 90px;
+    margin-bottom: 9rem;
 }
 .statement{
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 .store-link{
     background-color: #2874f0;
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 8px;
+    padding: 0.5rem;
+    border: 0.2rem solid black;
+    border-radius: 0.8rem;
     color: black;
     text-decoration: none;
 }
@@ -82,53 +98,53 @@ hr{
     color: #27eeee;
 }
 .statement-line{
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 .social{
     font-family: monospace;
-    width: 400px;
-    font-size: 28px;
-    padding: 10px;
-    margin-left: 760px;
+    width: 40rem;
+    font-size: 2.8rem;
+    padding: 1rem;
+    margin-left: 76rem;
 }
 .aboutpara{
     color: gray;
     font-family: monospace;
-    font-size: 20px;
-    margin: 15px;
-    padding: 5px;
+    font-size: 2rem;
+    margin: 1.5rem;
+    padding: 0.5rem;
 }
 .mainfooter{
     color: white;
     background-color: #001d33;
-    margin-top: -60px;
-    padding: 10px;
+    margin-top: -6rem;
+    padding: 1rem;
 }
 .contact{
     font-family: monospace;
-    width: 400px;
-    font-size: 28px;
-    margin-left: 206px;
-    padding: 10px;
+    width: 40rem;
+    font-size: 2.8rem;
+    margin-left: 20.6rem;
+    padding: 1rem;
 }
 .touch{
     color: white;
     text-decoration: none;
-    margin: 15px;
+    margin: 1.5rem;
 }
 .footertouch{
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: monospace;
-    margin-left: 670px;
+    margin-left: 67rem;
 }
 .email{
-    margin-left: 220px;
-    font-size: 20px;
+    margin-left: 22rem;
+    font-size: 2rem;
     font-family: monospace;
 }
 .touchnav{
-    padding: 24px;
+    padding: 2.4rem;
 }
 .email1{
     color: white;
@@ -139,38 +155,39 @@ hr{
     text-decoration: underline;
 }
 .touch:hover{
-    color: white;
+    color: gray;
+    text-decoration: underline;
 }
 .about{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
+    font-size: 4rem;
 }
 .slider-frame{
     overflow: hidden;
-    width: 1200px;
-    height: 680px;
-    margin-left: 150px;
-    margin-top: 15px;
+    width: 120rem;
+    height: 68rem;
+    margin-left: 15rem;
+    margin-top: 1.5rem;
 }
 @keyframes slide_animation{
-    0%{left: 0px;}
-    10%{left: 0px;}
-    20%{left: 1200px;}
-    30%{left: 1200px;}
-    40%{left: 2400px;}
-    50%{left: 2400px;}
-    60%{left: 1200px;}
-    70%{left: 1200px;}
-    80%{left: 0px;}
-    90%{left: 0px;}
-    100%{left: 0px;}
+    0%{left: 0rem;}
+    10%{left: 0rem;}
+    20%{left: 120rem;}
+    30%{left: 120rem;}
+    40%{left: 240rem;}
+    50%{left: 240rem;}
+    60%{left: 120rem;}
+    70%{left: 120rem;}
+    80%{left: 0rem;}
+    90%{left: 0rem;}
+    100%{left: 0rem;}
 }
 .slide-images{
     background-color: white;
-    width: 3600px;
-    height: 800px;
-    margin: 0 0 0 -2170px;
+    width: 360rem;
+    height: 80rem;
+    margin: 0 0 0 -217rem;
     position: relative;
     animation-name: slide_animation;
     animation-duration: 20s;
@@ -179,8 +196,8 @@ hr{
     animation-play-state: running;
 }
 .img-container{
-    height: 800px;
-    width: 1200px;
+    height: 80rem;
+    width: 120rem;
     position: relative;
     float: left;
 }
